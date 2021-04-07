@@ -1,0 +1,260 @@
+/*
+Color Codes (light to dark)
+#EBEBE9
+#E3E6DA
+#C0CEB2
+#8AA989
+#49654C
+#253628
+*/
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #49654C;
+}
+
+h1 {
+  color: white;
+  margin: 20px;
+}
+
+h2 {
+  color: #462f00;
+}
+
+hr {
+  border: 1.5px solid white;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #253628;
+  /* background-color: #420404; */
+  padding: 10px;
+  height: 70px;
+}
+
+header .page {
+  float: left;
+}
+
+header .title {
+  float: right;
+}
+
+section {
+  overflow: hidden;
+  padding: 10px;
+}
+
+.sidebar {
+  background-color: #91A97F;
+  float: left;
+  width: 20%;
+  min-width: 200px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  padding-right: 40px;
+}
+
+.search {
+  background-color: #E3E6DA;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+.catalog {
+  background-color: #C0CEB2;
+  float: center;
+}
+
+body {
+  margin: 0 auto;
+}
+
+form h3 {
+  margin-bottom: 5px;
+}
+
+form p {
+  margin: 0px;
+}
+
+form .form-item {
+  text-align: center;
+}
+
+form #sort, #filter {
+  margin: 10px 3px;
+}
+
+form #sort {
+  width: 100px;
+}
+
+form #filter {
+  width: 50px;
+}
+
+input[type="submit"] {
+  background: #570707;
+  padding: 3px 5px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #253628;
+}
+
+.sidebar fieldset {
+  width: 100%;
+  float: center;
+  border: 2px solid white;
+}
+
+.icon {
+  width: 18px;
+  height: auto;
+}
+
+main {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px;
+}
+
+.tile {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.tile:last-child {
+  margin-bottom: 0px;
+}
+
+.tile-main {
+  align-items: center;
+  margin-right: 10px;
+  width: 70%;
+}
+
+.tile .tile-main h3 {
+  width: 70%;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.tile .tile-info {
+  width: 30%;
+  text-align: right;
+  align-items: right;
+  padding-right: 15px;
+}
+
+.tile .tile-info h3 {
+  font-weight: lighter;
+  margin: 10px 5px;
+}
+
+.searchbar {
+  display: inline-flex;
+  margin-right: 0px;
+}
+
+.insert-record {
+  float: right;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.insert-record a.admin-btn {
+  text-align: center;
+  align-items: right;
+  background-color: #570707;
+  color: white;
+  text-decoration: none;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.insert-record a.admin-btn:hover {
+  background-color: #253628;
+}
+
+main.admin form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 750px;
+}
+
+main.admin form .form-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 20px 0px;
+}
+
+main.admin form .form-item :first-child {
+  width: 150px;
+  text-align: right;
+  margin-right: 4px;
+}
+
+main.admin textarea {
+  width: 300px;
+  height: 150px;
+}
+
+main.admin .feedback {
+  margin-left: 50px;
+  margin-bottom: 5px;
+  color: #CE0808;
+  font-size: small;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+main.credits ul {
+  margin: 20px;
+  list-style-type: none;
+}
+
+main.credits li {
+  padding: 4px;
+}
+
+footer {
+  background-color: #49654C;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+cite {
+  font-size: 70%;
+}
+
+.hidden {
+  display: none;
+}
